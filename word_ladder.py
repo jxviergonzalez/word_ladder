@@ -45,6 +45,7 @@ def word_ladder(start_word, end_word, dictionary_file='words5.dict'):
                     dictionary_file.remove(i)
     return None
 
+
 def verify_word_ladder(ladder):
     '''
     otherwise returns False.
@@ -64,6 +65,7 @@ def verify_word_ladder(ladder):
             return False
         else:
             return True
+
 
 def _adjacent(word1, word2):
     '''
